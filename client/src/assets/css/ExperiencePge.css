@@ -1,0 +1,47 @@
+.work{
+    background-color: #13878128;
+    margin: 50px 0;
+    margin-left: 160px;
+    width: 78.5em
+
+}
+
+.work-exp{
+    padding: 60px 0;
+}
+
+.work-exp h2{
+    font-weight: bold;
+    color: #1e1e2c
+}
+
+.work-exp hr{
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.vertical-timeline-element-title{
+    color: #138781;
+}
+
+.vertical-timeline-element-subtitle{
+    color: #f29a6a;
+}
+
+/*====Mobile===view===========*/
+@media(max-width:600px){
+    .work{
+        padding: 0;
+        margin: 0;
+        width:auto;
+    }
+    .work-exp hr{
+        width: 250px;
+    }
+    .vertical-timeline-element-work{
+        width:auto;
+        padding-right: 30px;
+    }
+
+}
