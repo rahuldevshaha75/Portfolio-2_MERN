@@ -10,6 +10,7 @@ import Footer from "./components/layout/Footer.jsx";
 import ScrollToTop from "react-scroll-to-top";
 import {useTheme} from "./components/StateManage/LightDark.jsx";
 import MobileNav from "./components/Mobile Nav/MobileNav.jsx";
+import BlogPage from "./pages/BlogPage.jsx";
 
 const App = () => {
     const [theme]=useTheme()
@@ -24,6 +25,7 @@ const App = () => {
             <AboutPage/>
             <EducationPage/>
             <TechStackPage/>
+            <BlogPage/>
             <ProjectsPage/>
             <ExperiencePage/>
             <ContactPage/>

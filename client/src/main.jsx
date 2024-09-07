@@ -15,6 +15,7 @@ import './assets/css/ContactPage.css'
 import {ThemeProvider} from './components/StateManage/LightDark.jsx'
 import './assets/css/MobileNav.css'
 import './assets/css/Footer.css'
+import './assets/css/Blog.css'
 
 createRoot(document.getElementById('root')).render(
 

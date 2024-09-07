@@ -4,6 +4,7 @@ import { MdWorkspacePremium } from "react-icons/md";
 import {Link} from "react-scroll";
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
+import {FaBlogger} from "react-icons/fa";
 
 
 const Menu = ({Toggle}) => {
@@ -60,6 +61,17 @@ const Menu = ({Toggle}) => {
                                     </Link>
                                 </div>
                                 <div className="nav-link">
+                                    <Link to="blog"
+                                          spy={true}
+                                          smooth={true}
+                                          offset={-100}
+                                          duration={100}>
+                                        <FaBlogger />
+                                        Blog
+
+                                    </Link>
+                                </div>
+                                <div className="nav-link">
                                     <Link to="projects"
                                           spy={true}
                                           smooth={true}
@@ -107,7 +119,7 @@ const Menu = ({Toggle}) => {
 
                             </div>
                         </div>
-                     </div>
+                    </div>
                     </Fade>
                 </>
             ) : (<>
@@ -149,6 +161,15 @@ const Menu = ({Toggle}) => {
                                       offset={-100}
                                       duration={100}>
                                     <FcSettings/>
+                                </Link>
+                            </div>
+                            <div className="nav-link">
+                                <Link to="blog"
+                                      spy={true}
+                                      smooth={true}
+                                      offset={-100}
+                                      duration={100}>
+                                    <FaBlogger/>
                                 </Link>
                             </div>
                             <div className="nav-link">
