@@ -14,6 +14,7 @@ import './assets/css/ExperiencePge.css'
 import './assets/css/ContactPage.css'
 import {ThemeProvider} from './components/StateManage/LightDark.jsx'
 import './assets/css/MobileNav.css'
+import './assets/css/Footer.css'
 
 createRoot(document.getElementById('root')).render(
 

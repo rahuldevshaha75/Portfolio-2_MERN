@@ -7,7 +7,8 @@ const AboutPage = () => {
             <div className="about" id='about'>
                 <div className="row">
                     <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
-                        <img src="https://marketplace.canva.com/EAFuJ5pCLLM/1/0/1600w/canva-black-and-gold-simple-business-man-linkedin-profile-picture-BM_NPo97JwE.jpg" alt="About Pic"/>
+                        {/*<img src="../../public/image/aboutMe.jpg" alt="About Pic"/>*/}
+                        <img src="../../public/image/rahulpic.jpg" alt="Rahul Pic"/>
                     </div>
                     <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
                         <h1>About Me</h1>

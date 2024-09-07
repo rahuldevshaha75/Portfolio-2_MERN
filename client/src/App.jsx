@@ -3,7 +3,7 @@ import Layout from "./components/layout/layout.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
 import TechStackPage from "./pages/TechStackPage.jsx";
 import ProjectsPage from "./pages/ProjectsPage.jsx";
-import EducationPagge from "./pages/EducationPagge.jsx";
+import EducationPage from "./pages/EducationPagge.jsx";
 import ExperiencePage from "./pages/ExperiencePage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import Footer from "./components/layout/Footer.jsx";
@@ -16,11 +16,13 @@ const App = () => {
   return (
     <>
         <div id={theme}>
-            <MobileNav/>
-        <Layout/>
+           <div>
+               <MobileNav/>
+               <Layout/>
+           </div>
         <div className="container">
             <AboutPage/>
-            <EducationPagge/>
+            <EducationPage/>
             <TechStackPage/>
             <ProjectsPage/>
             <ExperiencePage/>

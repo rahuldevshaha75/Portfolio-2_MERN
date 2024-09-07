@@ -13,22 +13,8 @@ const Education = () => {
 
             <VerticalTimeline>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'white', color: 'black' }}
-                    contentArrowStyle={{ borderRight: '7px solid  gray' }}
-                    date="2010 - present"
-                    iconStyle={{ background: '#138781', color: '#fff' }}
-                    icon={<IoMdSchool />}
-                >
-                    <h3 className="vertical-timeline-element-title">BSC</h3>
-                    <h4 className="vertical-timeline-element-subtitle">IIT Mumbai</h4>
-                    <p>
-                        Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'white', color: 'black' }}
+                    className="vertical-timeline-element--work eduStyle-0"
+                    contentStyle={{ background:"#D6F2FC", color: 'black'}}
                     contentArrowStyle={{ borderRight: '7px solid  gray' }}
                     date="2010 - 2015"
                     iconStyle={{ background: '#138781', color: '#fff' }}
@@ -42,7 +28,7 @@ const Education = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'white', color: 'black' }}
+                    contentStyle={{ background:"#D6F2FC", color: 'black' }}
                     contentArrowStyle={{ borderRight: '7px solid  gray' }}
                     date="2016 - 2021"
                     iconStyle={{ background: '#138781', color: '#fff' }}
@@ -56,7 +42,7 @@ const Education = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'white', color: 'black' }}
+                    contentStyle={{ background:"#D6F2FC", color: 'black' }}
                     contentArrowStyle={{ borderRight: '7px solid  gray' }}
                     date="2022 - 2024"
                     iconStyle={{ background: '#138781', color: '#fff' }}
@@ -70,7 +56,7 @@ const Education = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'white', color: 'black' }}
+                    contentStyle={{ background:"#D6F2FC", color: 'black' }}
                     contentArrowStyle={{ borderRight: '7px solid  gray' }}
                     date="2024 - present"
                     iconStyle={{ background: '#138781', color: '#fff' }}

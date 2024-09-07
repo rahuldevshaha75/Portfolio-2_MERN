@@ -1,5 +1,5 @@
 import React from 'react';
-import Spin from "react-reveal/Spin";
+import Fade from "react-reveal/Fade";
 const Projects = () => {
     return (
         <>
@@ -12,7 +12,7 @@ const Projects = () => {
                 </p>
                 {/*Card design*/}
                 <div className="row" id="ads">
-                    <Spin>
+                    <Fade bottom>
                     <div className="col-md-4">
                         <div className="card rounded crd">
                             <div className="card-image">
@@ -229,7 +229,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    </Spin>
+                    </Fade>
                 </div>
             </div>
         </>

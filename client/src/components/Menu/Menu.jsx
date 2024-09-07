@@ -11,13 +11,6 @@ const Menu = ({Toggle}) => {
         <>{
             Toggle? (
                 <>
-                    <Zoom>
-                        <div className="navbar-profile-pic">
-                            <img
-                                src="https://marketplace.canva.com/EAFuJ5pCLLM/1/0/1600w/canva-black-and-gold-simple-business-man-linkedin-profile-picture-BM_NPo97JwE.jpg"
-                                alt="Profile Pic"/>
-                        </div>
-                    </Zoom>
                     <Fade left>
                     <div>
                         <div className="nav-items">

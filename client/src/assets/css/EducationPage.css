@@ -1,9 +1,14 @@
 .education{
-    padding: 100px 0;
-    margin: 50px 0;
-    margin-left: 120px;
-    background-color: aqua;
-
+    background-color: white;
+    margin: 30px 0px;
+    padding: 20px;
+    margin-left: 170px;
+    width: 88%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.education:hover{
+    box-shadow: 1px 8px 20px grey;
+    -webkit-transition:  box-shadow .6s ease-in;
 }
 
 .education hr{
@@ -16,7 +21,6 @@
     font-weight: bold;
     color: red;
 }
-
 
 .education .vertical-timeline-element-title{
     color: #138781;
