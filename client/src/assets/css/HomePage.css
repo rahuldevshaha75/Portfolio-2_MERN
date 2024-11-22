@@ -1,12 +1,12 @@
 .home-container {
     height: 330px;
-    color: white;
+    color: #0c0a3e;
     padding-left: 150px;
 
 }
 
 .home-content{
-    margin-left: 0;
+    margin-left: 300px;
     width: 50%;
 
 }
@@ -21,8 +21,8 @@
 
 }
 .home-content h1 {
-    color: #e0b50f;
-    padding: 5px;
+    color: #0c0a3e;
+    padding: 17px;
 
 
 }
@@ -33,25 +33,30 @@
 }
 
 .home-buttons .btn-hire {
-    background-color: #3b8ff3;
-    color: white;
+    background-color: #00b4d8;
+    color: #08171E;
     width: 160px;
 }
-.home-buttons .btn-hire:hover {
-    background-color: white;
-    color: #3b8ff3;
+.home-buttons .btn-hire:hover{
+    background-color: #ffbf69;
+    color: black;
     width: 200px;
     transition: 1s;
 }
 
+
 .home-buttons .btn-cv {
-    background-color: #f29f67;
-    color: white;
+    background-color: #00b4d8;
+    color: #08171E;
     margin-left: 15px;
+    width: 160px;
 }
 
 .home-buttons .btn-cv:hover {
-    opacity: 80%;
+    /*opacity: 70%;*/
+    background-color: #ffbf69;
+    color: black;
+    width: 200px;
     transition: 1s;
 }
 
@@ -61,7 +66,7 @@
     justify-content: center;
     height: 40px;
     width: 40px;
-    background-color: #1e1e1e;
+    background-color: #97dffc;
     margin-top: 20px;
     text-align: center;
     position: fixed;

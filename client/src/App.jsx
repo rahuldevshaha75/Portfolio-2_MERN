@@ -1,38 +1,26 @@
 import React from 'react';
-import Layout from "./components/layout/layout.jsx";
-import AboutPage from "./pages/AboutPage.jsx";
-import TechStackPage from "./pages/TechStackPage.jsx";
-import ProjectsPage from "./pages/ProjectsPage.jsx";
-import EducationPage from "./pages/EducationPagge.jsx";
-import ExperiencePage from "./pages/ExperiencePage.jsx";
-import ContactPage from "./pages/ContactPage.jsx";
-import Footer from "./components/layout/Footer.jsx";
-import ScrollToTop from "react-scroll-to-top";
-import {useTheme} from "./components/StateManage/LightDark.jsx";
-import MobileNav from "./components/Mobile Nav/MobileNav.jsx";
-import BlogPage from "./pages/BlogPage.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import NoData from "./components/layout/No_Data.jsx";
+import AboutDetails from "./components/About/About-details.jsx";
+import BlogList from "./components/Blogs/blogs-list.jsx";
+import ProjectList from "./components/Projects/Project-list.jsx";
+import AdminLogin from "./components/admin/Dashboard/AdminLogin.jsx";
 
 const App = () => {
-    const [theme]=useTheme()
   return (
+
     <>
-        <div id={theme}>
-           <div>
-               <MobileNav/>
-               <Layout/>
-           </div>
-        <div className="container">
-            <AboutPage/>
-            <EducationPage/>
-            <TechStackPage/>
-            <BlogPage/>
-            <ProjectsPage/>
-            <ExperiencePage/>
-            <ContactPage/>
-        </div>
-        <Footer/>
-        </div>
-        <ScrollToTop/>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<HomePage/>}/>
+                <Route path="*" element={<NoData/>}/>
+                <Route path="blog-list" element={<BlogList/>}/>
+                <Route path="project-list" element={<ProjectList/>}/>
+                <Route path="about-details" element={<AboutDetails/>}/>
+                <Route path="admin-login" element={<AdminLogin/>}/>
+            </Routes>
+        </BrowserRouter>
 
     </>
   );

@@ -1,11 +1,14 @@
-.education{
-    background-color: white;
+.education {
+    margin-top: 60px;
+    background-color: #97dffc;
     margin: 30px 0px;
     padding: 20px;
-    margin-left: 170px;
-    width: 88%;
+    margin-left: 75px;
+    width: 89%;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
 }
+
 .education:hover{
     box-shadow: 1px 8px 20px grey;
     -webkit-transition:  box-shadow .6s ease-in;

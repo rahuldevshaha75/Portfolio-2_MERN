@@ -2,17 +2,28 @@ import React from 'react';
 import { FcHome,FcAbout,FcSettings,FcGraduationCap,FcEditImage,FcCustomerSupport,FcTemplate,FcBusinessContact  } from "react-icons/fc";
 import { MdWorkspacePremium } from "react-icons/md";
 import {Link} from "react-scroll";
-import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 import {FaBlogger} from "react-icons/fa";
 
 
 const Menu = ({Toggle}) => {
     return (
-        <>{
+        <>
+            {
             Toggle? (
                 <>
                     <Fade left>
+
+                    <div className="sidebar-logo">
+                        <div className="sLogo">
+                            <img src="../../../public/image/logo.png" alt=""/>
+                        </div>
+                    </div>
+
+
+
+
+
                     <div>
                         <div className="nav-items">
                             <div className="nav-item">
@@ -38,28 +49,28 @@ const Menu = ({Toggle}) => {
 
                                     </Link>
                                 </div>
-                                <div className="nav-link">
-                                    <Link to="education"
-                                          spy={true}
-                                          smooth={true}
-                                          offset={-100}
-                                          duration={100}>
+                                {/*<div className="nav-link">*/}
+                                {/*    <Link to="education"*/}
+                                {/*          spy={true}*/}
+                                {/*          smooth={true}*/}
+                                {/*          offset={-100}*/}
+                                {/*          duration={100}>*/}
 
-                                        <FcGraduationCap/>
-                                        Education
-                                    </Link>
-                                </div>
-                                <div className="nav-link">
-                                    <Link to="techstack"
-                                          spy={true}
-                                          smooth={true}
-                                          offset={-100}
-                                          duration={100}>
-                                        <FcSettings/>
-                                        Tech Stack
+                                {/*        <FcGraduationCap/>*/}
+                                {/*        Education*/}
+                                {/*    </Link>*/}
+                                {/*</div>*/}
+                                {/*<div className="nav-link">*/}
+                                {/*    <Link to="techstack"*/}
+                                {/*          spy={true}*/}
+                                {/*          smooth={true}*/}
+                                {/*          offset={-100}*/}
+                                {/*          duration={100}>*/}
+                                {/*        <FcSettings/>*/}
+                                {/*        Tech Stack*/}
 
-                                    </Link>
-                                </div>
+                                {/*    </Link>*/}
+                                {/*</div>*/}
                                 <div className="nav-link">
                                     <Link to="blog"
                                           spy={true}
@@ -82,30 +93,30 @@ const Menu = ({Toggle}) => {
 
                                     </Link>
                                 </div>
-                                <div className="nav-link">
-                                    <Link to="experience"
-                                          spy={true}
-                                          smooth={true}
-                                          offset={-100}
-                                          duration={100}>
-                                        <MdWorkspacePremium/>
-                                        Experience
+                                {/*<div className="nav-link">*/}
+                                {/*    <Link to="experience"*/}
+                                {/*          spy={true}*/}
+                                {/*          smooth={true}*/}
+                                {/*          offset={-100}*/}
+                                {/*          duration={100}>*/}
+                                {/*        <MdWorkspacePremium/>*/}
+                                {/*        Experience*/}
 
-                                    </Link>
-                                </div>
+                                {/*    </Link>*/}
+                                {/*</div>*/}
 
-                                <div className="nav-link">
-                                    <Link to="testimonials"
-                                          spy={true}
-                                          smooth={true}
-                                          offset={-100}
-                                          duration={100}>
+                                {/*<div className="nav-link">*/}
+                                {/*    <Link to="testimonials"*/}
+                                {/*          spy={true}*/}
+                                {/*          smooth={true}*/}
+                                {/*          offset={-100}*/}
+                                {/*          duration={100}>*/}
 
-                                        <FcTemplate/>
-                                        Testimonial
-                                    </Link>
+                                {/*        <FcTemplate/>*/}
+                                {/*        Testimonial*/}
+                                {/*    </Link>*/}
 
-                                </div>
+                                {/*</div>*/}
                                 <div className="nav-link">
                                     <Link to="contact"
                                           spy={true}
@@ -144,25 +155,25 @@ const Menu = ({Toggle}) => {
                                     <FcAbout/>
                                 </Link>
                             </div>
-                            <div className="nav-link">
-                                <Link to="education"
-                                      spy={true}
-                                      smooth={true}
-                                      offset={-100}
-                                      duration={100}>
+                            {/*<div className="nav-link">*/}
+                            {/*    <Link to="education"*/}
+                            {/*          spy={true}*/}
+                            {/*          smooth={true}*/}
+                            {/*          offset={-100}*/}
+                            {/*          duration={100}>*/}
 
-                                    <FcGraduationCap/>
-                                </Link>
-                            </div>
-                            <div className="nav-link">
-                                <Link to="techstack"
-                                      spy={true}
-                                      smooth={true}
-                                      offset={-100}
-                                      duration={100}>
-                                    <FcSettings/>
-                                </Link>
-                            </div>
+                            {/*        <FcGraduationCap/>*/}
+                            {/*    </Link>*/}
+                            {/*</div>*/}
+                            {/*<div className="nav-link">*/}
+                            {/*    <Link to="techstack"*/}
+                            {/*          spy={true}*/}
+                            {/*          smooth={true}*/}
+                            {/*          offset={-100}*/}
+                            {/*          duration={100}>*/}
+                            {/*        <FcSettings/>*/}
+                            {/*    </Link>*/}
+                            {/*</div>*/}
                             <div className="nav-link">
                                 <Link to="blog"
                                       spy={true}
@@ -181,18 +192,18 @@ const Menu = ({Toggle}) => {
                                     <FcEditImage/>
                                 </Link>
                             </div>
-                            <div className="nav-link">
-                                <Link to="experience"
-                                      spy={true}
-                                      smooth={true}
-                                      offset={-100}
-                                      duration={100}>
-                                    <MdWorkspacePremium/>
-                                </Link>
-                            </div>
-                            <div className="nav-link">
-                                <FcTemplate title="Testimonial"/>
-                            </div>
+                            {/*<div className="nav-link">*/}
+                            {/*    <Link to="experience"*/}
+                            {/*          spy={true}*/}
+                            {/*          smooth={true}*/}
+                            {/*          offset={-100}*/}
+                            {/*          duration={100}>*/}
+                            {/*        <MdWorkspacePremium/>*/}
+                            {/*    </Link>*/}
+                            {/*</div>*/}
+                            {/*<div className="nav-link">*/}
+                            {/*    <FcTemplate title="Testimonial"/>*/}
+                            {/*</div>*/}
                             <div className="nav-link">
                                 <Link to="contact"
                                       spy={true}

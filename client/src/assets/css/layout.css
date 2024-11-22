@@ -1,11 +1,14 @@
 .sidebar-section{
     display: flex;
-    background-color: #001517;
+    background-color: #daf0ee;
+    /*background-color: #e0fbfc;*/
+    color: #08171E;
 }
 
 .sidebar{
     height: 100vh;
-    background-color: #253628;
+    /*background-color: #253628;*/
+    background-color: #c7dbe6;
     width: 90px;
     position: fixed;
 }
@@ -22,7 +25,7 @@
 
 .sidebar-toggle-icons p svg{
 
-    color: white;
+    color: #08171E;
     margin-top: 12px;
     background: 50%;
 }

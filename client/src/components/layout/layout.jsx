@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import HomePage from "../../pages/HomePage.jsx";
 import {AiOutlineDoubleLeft, AiOutlineDoubleRight} from "react-icons/ai";
 import Menu from "../Menu/Menu.jsx";
+import Home from "../Home/Home.jsx";
 
 
 
@@ -33,7 +34,7 @@ const Layout = () => {
                     <Menu Toggle={Toggle} />
                 </div>
                 <div className="container">
-                    <HomePage/>
+                    <Home/>
                 </div>
             </div>
         </>

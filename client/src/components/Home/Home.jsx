@@ -15,6 +15,7 @@ const Home = () => {
         setTheme((prevState)=>(prevState==="light"?"dark":"light"))
     }
     return (
+
         <>
             <div className="container-fluid home-container" id="home">
                 <div onClick={handleTheme} className="theme-btn">
@@ -25,13 +26,12 @@ const Home = () => {
                 <div className="container home-content">
                     <Fade right>
                     <h2>Hello, I'm Rahul.</h2>
-                    <h1>
-                        <Typewriter className="typeWritter"
+                    <h1><Typewriter className="typeWritter"
                             options={{
                                 strings: [
                                     "FullStack Developer!",
                                     "Mern Stack Developer!",
-                                    "React native developer!",
+                                    "React Native Developer!",
                                 ],
                                 autoStart: true,
                                 loop: true,
@@ -41,16 +41,10 @@ const Home = () => {
                     <Fade bottom>
                         <div className="home-buttons">
                             <Link className="btn btn-hire"
-                               to="contact"
+                                  to="contact"
                             >Hire Me</Link>
                             <a className="btn btn-cv" href={resume} download="Rahul.pdf">My Resume</a>
                         </div>
-
-                        {/*<div className="container homeImg">*/}
-                        {/*    <div className="style-0">*/}
-                        {/*        <img src="https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg" alt=""/>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
                     </Fade>
                 </div>
 

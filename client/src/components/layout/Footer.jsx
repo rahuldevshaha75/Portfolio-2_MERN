@@ -15,15 +15,17 @@ const Footer = () => {
                         <div className="footerNav">
                             <p><Link className="nav-link" to="home">Home</Link></p>
                             <p><Link className="nav-link" to="about">About</Link></p>
-                            <p><Link className="nav-link" to="education">Education</Link></p>
-                            <p><Link className="nav-link" to="teckstack">Tech Stack</Link></p>
-                            <p><Link className="nav-link" to="experience">Experience</Link></p>
-                            <p><Link className="nav-link" to="testimonial">Testimonial</Link></p>
+                            <p><Link className="nav-link" to="blog">Blog</Link></p>
+                            <p><Link className="nav-link" to="projects">Projects</Link></p>
+                            {/*<p><Link className="nav-link" to="education">Education</Link></p>*/}
+                            {/*<p><Link className="nav-link" to="teckstack">Tech Stack</Link></p>*/}
+                            {/*<p><Link className="nav-link" to="experience">Experience</Link></p>*/}
+                            {/*<p><Link className="nav-link" to="testimonial">Testimonial</Link></p>*/}
                             <p><Link className="nav-link" to="contact">Contact</Link></p>
 
                         </div>
                         <div className="footerMedias">
-                            <div>
+                        <div>
                                 <a target="_blank" href="https://www.linkedin.com/in/rahul-dev-shaha">
                                     <div className="footerMedia"><FaLinkedin/></div>
                                 </a>
